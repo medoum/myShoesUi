@@ -2,39 +2,56 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-slate-900 px-6 mt-20 py-8 space-y-8 flex-col font-bold flex items-center'>
-    {/* <img src="../../assets/images/logo.png" class="lg:w-52 md:w-44 w-64" alt="logo"> */}
-  <div class="bg-slate-900 md:h-40"></div>
-  <div class="flex flex-row text-lg space-x-8">
-            <h1>INFORMATIONS SUR L'ENTREPRISE</h1>
-            <a href='#'>À Propos De Nous</a>
-            <a href='#'>Responsabilité Sociale</a>
-            <a href='#'>Blogger</a>
-            <a href='#'>Réduction</a>
-            <a href='#'></a>
-  
-      <ul class="space-y-2">
-        <li>Blog</li>
-        <li>Démo</li>
-        <li>Aide</li>
-    </ul>
+  <div className='bg-slate-100 shadow-sm mt- sticky px-6 py-8 space-y-8 flex flex-row h-screen justify-between'>
+  <div class="text-lg space-x-10 space-y-4">
+            {/* <h1 className='font-bold'>INFORMATIONS SUR NOUS</h1>
+            <ul className='space-y-2'>
+              <li> <a href='#'>À Propos De Nous</a></li>
+              <li><a href='#'>Responsabilité Sociale</a></li>
+              <li><a href='#'>Blogger</a></li>
+              <li><a href='#'>Réduction</a></li>
+              <li><a href='#'>Promos</a></li>
+          </ul>   */}
   </div>
-  <div class="bg-slate-900"></div>
-  <div class="flex flex-col text-base space-y-4">
-    <h3>Rejoignez notre newsletter</h3>
-    <div class="mb-2 flex flex-row space-x-2">
-      <input class="bg-slate-900bg-opacity-20 rounded-md text-sm focus:outline-none px-4 w-30" type="email" value="Email" required />
-      <button class="bg-white p-2 px-4 text-sm rounded-md" type="submit">Valider</button>
-    </div>
-    <ul class="flex space-x-4 items-center text-center">
-      {/* <li><img src="../../assets/images/icons/Facebook.png" alt="Facebook icon" class="md:w-6 w-8"></li>
-      <li><img src="../../assets/images/icons/X.png" alt="X icon" class="md:w-6 w-8"></li>
-      <li><img src="../../assets/images/icons/Instagram.png" alt="Instagram icon" class="md:w-6 w-8"></li>
-      <li><img src="../../assets/images/icons/Linkedin.png" alt="Linkedin icon" class="md:w-6 w-8"></li>
-      <li><img src="../../assets/images/icons/Youtube.png" alt="Youtube icon" class="md:w-6 w-8"></li> */}
-    </ul>
+
+  <div class="text-lg space-x-10 space-y-4">
+            <h1 className='font-bold'>AIDE</h1>
+            <ul className='space-y-2'>
+              <li> <a href='#'>Livraison</a></li>
+              <li><a href='#'>Remboursement</a></li>
+              <li><a href='#'>Commande</a></li>
+              <li><a href='#'>Statut De Commande</a></li>
+          </ul>  
   </div>
-    </div>
+ 
+  <div class="text-lg space-x-10 space-y-4">
+            <h1 className='font-bold'>CONTACT & PAIEMENT</h1>
+            <ul className='space-y-2'>
+              <li> <a href='#'>Nous contacter</a></li>
+              <li><a href='#'>Paiement</a></li>
+              <li><a href='#'>Points et Bonus</a></li>
+              <li><a href='#'>Avis de Rappel</a></li>
+              <li><a href='#'>Groupe whatsapp</a></li>
+          </ul>  
+  </div>
+  <div class="text-lg space-x-24 space-y-4">
+            <h1 className='font-bold'>Trouvez-nous sur</h1>
+            <ul class="flex space-x-4 items-center text-center">
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+            <li><i class="fa-brands fa-youtube"></i></li>
+          </ul>
+          <p className='text-sm'>Abonnez nous à nos newsletter pour suivre toute l'actualité de myShoes</p>
+          <p className='text-sm'>Vous pouvez vous desabonner à tout moment</p>
+          <div className='space-x-0 w-18'>
+          <input className='w-1/2 h-10 p-2' type='email' placeholder='Entrez votre adresse mail'/><button className='bg-black text-white text-sm p-2 rounded-xs'>S'abonner</button>
+          </div>
+
+          {/* <input type='email'/><button placeholder="S'abonner"></button> */}
+  </div>
+  </div>
   )
 }
 
