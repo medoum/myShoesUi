@@ -1,9 +1,12 @@
 import './App.css';
+import Footer from './component/Footer';
+import Header from './component/Header';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1 className='text-3xl font-bold text-red-600'>Hello my Shoes</h1>
+      <Header />
+      <Footer />
     </div>
   );
 }
