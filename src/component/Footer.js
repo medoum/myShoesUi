@@ -2,20 +2,21 @@ import React from 'react'
 
 const Footer = () => {
   return (
+    <div>
   <div className='bg-slate-100 shadow-sm mt- sticky px-6 py-8 space-y-8 flex flex-row h-screen justify-between'>
-  <div class="text-lg space-x-10 space-y-4">
-            {/* <h1 className='font-bold'>INFORMATIONS SUR NOUS</h1>
+  <div class="text-lg space-x-10 space-y-4 p-6 mt-6">
+            <h1 className='font-bold ml-10'>INFORMATIONS SUR NOUS</h1>
             <ul className='space-y-2'>
               <li> <a href='#'>À Propos De Nous</a></li>
               <li><a href='#'>Responsabilité Sociale</a></li>
               <li><a href='#'>Blogger</a></li>
               <li><a href='#'>Réduction</a></li>
               <li><a href='#'>Promos</a></li>
-          </ul>   */}
+          </ul>  
   </div>
 
-  <div class="text-lg space-x-10 space-y-4">
-            <h1 className='font-bold'>AIDE</h1>
+  <div class="text-lg space-x-10 space-y-4 p-6">
+            <h1 className='font-bold ml-10'>AIDE</h1>
             <ul className='space-y-2'>
               <li> <a href='#'>Livraison</a></li>
               <li><a href='#'>Remboursement</a></li>
@@ -24,8 +25,8 @@ const Footer = () => {
           </ul>  
   </div>
  
-  <div class="text-lg space-x-10 space-y-4">
-            <h1 className='font-bold'>CONTACT & PAIEMENT</h1>
+  <div class="text-lg space-x-10 space-y-4  p-6">
+            <h1 className='font-bold ml-10'>CONTACT & PAIEMENT</h1>
             <ul className='space-y-2'>
               <li> <a href='#'>Nous contacter</a></li>
               <li><a href='#'>Paiement</a></li>
@@ -34,8 +35,8 @@ const Footer = () => {
               <li><a href='#'>Groupe whatsapp</a></li>
           </ul>  
   </div>
-  <div class="text-lg space-x-24 space-y-4">
-            <h1 className='font-bold'>Trouvez-nous sur</h1>
+  <div class="text-lg space-x-24 space-y-4  p-6">
+            <h1 className='font-bold ml-24'>Trouvez-nous sur</h1>
             <ul class="flex space-x-4 items-center text-center">
             <li><i class="fa-brands fa-facebook-f"></i></li>
             <li><i class="fa-brands fa-instagram"></i></li>
@@ -51,7 +52,15 @@ const Footer = () => {
 
           {/* <input type='email'/><button placeholder="S'abonner"></button> */}
   </div>
+  
   </div>
+
+  <div className='text-center bg-slate-400'>
+    <p>@2023 Tous Droits reservés</p>
+  </div>
+    </div>
+ 
+  
   )
 }
 
