@@ -27,6 +27,5 @@ jobs:
 
             
             - name: Build Project
-              if: github.event_name == 'push'
               run: npm run build
               #create a build when merge
