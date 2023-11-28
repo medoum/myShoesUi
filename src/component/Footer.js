@@ -46,8 +46,8 @@ const Footer = () => {
           </ul>
           <p className='text-sm'>Abonnez nous à nos newsletter pour suivre toute l'actualité de myShoes</p>
           <p className='text-sm'>Vous pouvez vous desabonner à tout moment</p>
-          <div className='space-x-0 w-18'>
-          <input className='w-1/2 h-10 p-2' type='email' placeholder='Entrez votre adresse mail'/><button className='bg-black text-white text-sm p-2 rounded-xs'>S'abonner</button>
+          <div className='space-x-0 w-full'>
+          <input className='w-1/2 h-10 p-2' type='email' placeholder='Entrez votre adresse mail'/><button className='bg-black text-white text-sm p-3 h-10 rounded-xs'>S'abonner</button>
           </div>
 
           {/* <input type='email'/><button placeholder="S'abonner"></button> */}
