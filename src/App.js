@@ -1,11 +1,27 @@
-import './App.css';
+import { useState } from "react";
+import Home from "./Home";
+import Login from "./component/Login";
 
-function App() {
+import { BrowserRouter, Route, Router, Routes} from "react-router-dom";
+import Register from "./component/Register";
+
+
+const App = () => {
+  const [isLoggedIn, setLoggedIn] = useState(false);
+  const handleLogin = () => {
+    setLoggedIn(true);
+  };
   return (
     <div className="App">
-      <h1 className='text-3xl font-bold text-red-600'>Hello my Shoes</h1>
+      <BrowserRouter>
+      <Routes>
+      <Route index element={<Home />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="register" element={Register} />
+      </Routes>
+    </BrowserRouter>
     </div>
   );
-}
+};
 
 export default App;
