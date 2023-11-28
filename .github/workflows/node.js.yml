@@ -28,9 +28,6 @@ jobs:
                   restore-key: |
                       ${{runner.os}}-node-
 
-            - run: npm ci
-              #install dependencies
-
             - run: npm run format:check
               #check code formatting with prettier
 
