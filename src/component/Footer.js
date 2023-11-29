@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -7,32 +8,32 @@ const Footer = () => {
   <div class="text-lg space-x-10 space-y-4 p-6 mt-6">
             <h1 className='font-bold ml-10'>INFORMATIONS SUR NOUS</h1>
             <ul className='space-y-2'>
-              <li> <a href='#'>À Propos De Nous</a></li>
-              <li><a href='#'>Responsabilité Sociale</a></li>
-              <li><a href='#'>Blogger</a></li>
-              <li><a href='#'>Réduction</a></li>
-              <li><a href='#'>Promos</a></li>
+              <li> <Link href='#'>À Propos De Nous</Link></li>
+              <li><Link href='#'>Responsabilité Sociale</Link></li>
+              <li><Link href='#'>Blogger</Link></li>
+              <li><Link href='#'>Réduction</Link></li>
+              <li><Link href='#'>Promos</Link></li>
           </ul>  
   </div>
 
   <div class="text-lg space-x-10 space-y-4 p-6">
             <h1 className='font-bold ml-10'>AIDE</h1>
             <ul className='space-y-2'>
-              <li> <a href='#'>Livraison</a></li>
-              <li><a href='#'>Remboursement</a></li>
-              <li><a href='#'>Commande</a></li>
-              <li><a href='#'>Statut De Commande</a></li>
+              <li> <Link href='#'>Livraison</Link></li>
+              <li><Link href='#'>Remboursement</Link></li>
+              <li><Link href='#'>Commande</Link></li>
+              <li><Link href='#'>Statut De Commande</Link></li>
           </ul>  
   </div>
  
   <div class="text-lg space-x-10 space-y-4  p-6">
             <h1 className='font-bold ml-10'>CONTACT & PAIEMENT</h1>
             <ul className='space-y-2'>
-              <li> <a href='#'>Nous contacter</a></li>
-              <li><a href='#'>Paiement</a></li>
-              <li><a href='#'>Points et Bonus</a></li>
-              <li><a href='#'>Avis de Rappel</a></li>
-              <li><a href='#'>Groupe whatsapp</a></li>
+              <li> <Link href='#'>Nous contacter</Link></li>
+              <li><Link href='#'>Paiement</Link></li>
+              <li><Link href='#'>Points et Bonus</Link></li>
+              <li><Link href='#'>Avis de Rappel</Link></li>
+              <li><Link href='#'>Groupe whatsapp</Link></li>
           </ul>  
   </div>
   <div class="text-lg space-x-24 space-y-4  p-6">
