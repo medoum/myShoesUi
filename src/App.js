@@ -1,16 +1,15 @@
-import { useState } from "react";
 import Home from "./Home";
 import Login from "./component/Login";
 
-import { BrowserRouter, Route, Router, Routes} from "react-router-dom";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 import Register from "./component/Register";
 
 
 const App = () => {
-  const [isLoggedIn, setLoggedIn] = useState(false);
-  const handleLogin = () => {
-    setLoggedIn(true);
-  };
+//   // const [isLoggedIn, setLoggedIn] = useState(false);
+//   // const handleLogin = () => {
+//   //   setLoggedIn(true);
+//   };
   return (
     <div className="App">
       <BrowserRouter>
